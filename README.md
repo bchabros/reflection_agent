@@ -1,4 +1,4 @@
-# Reflexion Agent
+# Reflection Agent
 
 ## Introduction
 
@@ -11,7 +11,7 @@ Simple Reflection Agent where make twitter post better by few iterations.
 
 ### Repository
 
-- https://github.com/bchabros/reflection_rag.git
+- https://github.com/bchabros/reflection_agent.git
 
 ### Local env setup
 
@@ -36,9 +36,9 @@ Simple Reflection Agent where make twitter post better by few iterations.
 
 [main.py](main.py) - It's based on basic streamlit library so to run app you have to run command `streamlit run main.py`
 
-#### 5. ReactAgent Algorithm
+#### 5. Reflection Agent Algorithm
 
-Pipeline is simple ReactAgent where in first step he is looking for info in internet and then triple this output.
+Pipeline is simple Reflection Agent where in first step we send Twitter post and then we boost this twitter in few iterations.
 ![graph.png](png/graph_readme.png)
 
 #### 6. LangGraph Studio
